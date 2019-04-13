@@ -1,0 +1,6 @@
+@mixin page-title($font-size) {
+    font-size: $font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.64px;
+}

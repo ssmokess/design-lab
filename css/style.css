@@ -1,0 +1,102 @@
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.64px; }
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.64px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #3c3c3c; }
+
+img {
+  max-width: 100%; }
+
+.grid {
+  width: 900px;
+  margin: 0 auto; }
+
+.content-box {
+  width: 580px;
+  margin: 0 auto; }
+
+.section-box {
+  padding: 150px 0; }
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  color: #fff; }
+  .hero__logo {
+    display: inline-block;
+    margin-bottom: 90px; }
+  .hero__title {
+    margin-bottom: 50px; }
+  .hero__description {
+    font-size: 15px;
+    line-height: 29px;
+    text-transform: uppercase;
+    letter-spacing: .9px; }
+  .hero__scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -12px;
+    width: 23px;
+    height: 37px;
+    background-image: url("../img//scroll.svg");
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.section-box__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  height: 310px;
+  width: 900px;
+  border: 2px solid #3c3c3c; }

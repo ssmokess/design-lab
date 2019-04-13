@@ -1,0 +1,44 @@
+// Hero
+
+.hero {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('#{$path-img}hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    color: $color-white;
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 90px;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        font-size: 15px;
+        line-height: 29px;
+        text-transform: uppercase;
+        letter-spacing: .9px;
+    }
+
+    &__scroll {
+        position: absolute;
+        left: 50%;
+        bottom: 5%;
+        margin-left: -12px;
+        width: 23px;
+        height: 37px;
+        background-image: url('#{$path-img}/scroll.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+    
+
